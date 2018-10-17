@@ -1,0 +1,30 @@
+.rooms{
+    margin-bottom: 50px;
+    p{
+        margin-bottom: 30px;
+        margin-top: -20px;
+        b{
+            font-size: 17px;
+        }
+    }
+    button{
+        background: #1E90FF;
+        width: 100px;
+        height: 25px;
+        a{
+            color: white;
+        }
+    }
+    .thumbnail{
+        font-size: 15px;
+        .caption{
+            text-align: center;
+            p{
+                margin-top: 0px;
+            }
+            span{
+                color: yellow;
+            }
+        }
+    }
+}

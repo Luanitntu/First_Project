@@ -1,0 +1,76 @@
+.bgr {
+    background: url('') no-repeat center center fixed;
+    background-size: cover;
+    height: 670px;
+    #mainmenu-area {
+        background: none repeat scroll 0 0;
+        font-family: "Dosis", sans-serif;
+        width: 100%;
+        ul {
+            list-style-type: none;
+            text-align: center;
+            width: 100%;
+        }
+        li {
+            font-size: 18px;
+            color: #f1f1f1;
+            display: inline-block;
+            width: 120px;
+            height: 40px;
+            line-height: 40px;
+            margin-left: -5px;
+            position: relative;
+            &:hover {
+                color: #F5D940;
+                text-align: center;
+                .dropmenu {
+                    display: block;
+                }
+            }
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+            display: block;
+            &:hover {
+                color: #F5D940;
+            }
+        }
+    }
+} // stiky------------------
+#sticky {
+    position: fixed;
+    background: #F8F792;
+    font-family: "Dosis", sans-serif;
+    width: 100%;
+  
+}
+
+
+.dropmenu {
+    text-align: center;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    padding-left: 0px;
+    ul {
+        margin-left: 40px;
+    }
+    li {
+        margin-left: 0 !important;
+    }
+}
+
+.dropmenu>ul {
+    display: none !important;
+}
+/*-------book-------*/
+.book {
+    background: #F5D940;
+    color: #F8F5F5;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    p:hover {
+        color: #4B2B2B;
+    }
+}

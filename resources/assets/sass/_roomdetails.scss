@@ -1,0 +1,39 @@
+.formvali{
+    font-size: 15px;
+    p{
+        margin-bottom: 30px;
+        margin-top: -20px;
+        b{
+            font-size: 17px;
+        }
+    }
+    img{
+        width: 125%;
+    }
+    .form{
+        background: #DCDCDC;
+        padding: 30px 20px;
+        box-shadow: 5px 5px 10px #DCDCCC;
+        padding: 10px;
+        label{
+            font-size: 13px;
+            margin-left: 15px;
+        }
+        input{
+            width: 300px;
+            height: 40px;
+            margin-left: 15px;
+        }
+    }
+    .text{
+        margin-top: 30px;
+        p{
+            margin-top: 30px;
+            h4{
+                b{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
