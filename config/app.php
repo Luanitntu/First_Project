@@ -210,5 +210,28 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
-
+    // 'debug_blacklist' => [
+    //     '_ENV' => [
+    //         'APP_KEY',
+    //         'DB_PASSWORD',
+    //         'REDIS_PASSWORD',
+    //         'MAIL_PASSWORD',
+    //         'PUSHER_APP_KEY',
+    //         'PUSHER_APP_SECRET',
+    //         // thêm key bạn cho rằng nhạy cảm vào đây
+    //     ],
+    //     '_SERVER' => [
+    //         'APP_KEY',
+    //         'DB_PASSWORD',
+    //         'REDIS_PASSWORD',
+    //         'MAIL_PASSWORD',
+    //         'PUSHER_APP_KEY',
+    //         'PUSHER_APP_SECRET',
+    //         // vào đây
+    //     ],
+    //     '_POST' => [
+    //         'password',
+    //         // và vào đây nữa
+    //     ],
+    // ],
 ];
