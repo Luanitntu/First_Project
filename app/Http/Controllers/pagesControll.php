@@ -3,11 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB;
+use App\Quotation;
 
 class pagesControll extends Controller
 {
 	public function index(){
-        return view('pages.index');
+        $allphong = DB::table('phong')->get();
+        return view('pages.index', compact('allphong'));
     }
     public function abouts(){
     	return view('pages.abouts');
