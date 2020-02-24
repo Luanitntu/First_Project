@@ -13,7 +13,7 @@ class roomControll extends Controller
         $phongbt = phong::where('num', 1)->get();
         $phongcc = phong::where('num', 2)->get();
         $phongvip = phong::where('num',3)->get();
-        return view('pages.rooms', compact('tenphong','phongbt', 'phongcc', 'phongvip'));
+        return view('pages.rooms', compact('phongbt', 'phongcc', 'phongvip'));
     }
     public function getchitiet(Request $req){
         $tenphong1 = phong::where('id', $req->id)->first();
