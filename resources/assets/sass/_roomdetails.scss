@@ -1,39 +1,61 @@
-.formvali{
+.formvali {
     font-size: 15px;
-    p{
+
+    p {
         margin-bottom: 30px;
         margin-top: -20px;
-        b{
+
+        b {
             font-size: 17px;
         }
     }
-    img{
+
+    img {
         width: 125%;
     }
-    .form{
+
+    .form {
         background: #DCDCDC;
         padding: 30px 20px;
         box-shadow: 5px 5px 10px #DCDCCC;
         padding: 10px;
-        label{
+
+        label {
             font-size: 13px;
             margin-left: 15px;
         }
-        input{
+
+        input {
             width: 300px;
             height: 40px;
             margin-left: 15px;
         }
     }
-    .text{
+
+    .text {
         margin-top: 30px;
-        p{
+
+        p {
             margin-top: 30px;
-            h4{
-                b{
+
+            h4 {
+                b {
                     font-size: 15px;
                 }
             }
+        }
+    }
+
+    .detail-room {
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li{
+            font-size: 23px;
+        }
+        p{
+            font-size: 18px;
         }
     }
 }

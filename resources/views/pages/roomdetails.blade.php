@@ -10,14 +10,18 @@
             </div>
             <div class="col-md-4">
                 <div class="text" style="margin-top: 30px; font-size: 15px; margin-bottom: 50px;">
-                    <p>
-                        <p>Mã phòng: {{$tenphong1->maphong}}</p>
-                        <p>Số phòng: {{$tenphong1->sophong}}</p>
-                        <p>Giá phòng: {{$tenphong1->giaphong}}</p>
-                        <p>Mã loại phòng: {{$tenphong1->maloaiphong}}</p>
+                    <div class="detail-room">
+                        <ul>
+                            <li>Mã phòng: {{$tenphong1->maphong}}</li>
+                            <li>Số phòng: {{$tenphong1->sophong}}</li>
+                            <li>Giá phòng: {{$tenphong1->giaphong}}</li>
+                            <li>Mã loại phòng: {{$tenphong1->maloaiphong}}</li>
+                        </ul>
                         <p>{{$tenphong1->mieuta}}</p>
+                    </div>
+                    <div class="btn-dangki">
                         <a href="{{route('dangki',$tenphong1->id)}}">Đăng kí</a>
-                    </p>
+                    </div>
                 </div>
             </div>
         </div>
