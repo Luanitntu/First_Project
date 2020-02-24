@@ -33,13 +33,14 @@
                                     <td>{{$nv->tennhanvien}}</td>
                                     <td>{{$nv->luongnhanvien}} USD</td>
                                     <td>{{$nv->ngaysinh}}</td>
+                                    {{-- {{ dd($nv) }} --}}
                                     @if($nv->gioitinh==0)
                                     <td> Nam </td>
                                     @else
                                     <td> Nữ </td>
                                     @endif
-                                    <td><a href="{{route('nhanvien',$nv->id)}}">Sửa</a></td>
-                                    <td><a href="{{route('nhanvien',$nv->id)}}">Xóa</a></td>
+                                    <td><a href="{{route('nhanvien',$nv->manhanvien)}}">Sửa</a></td>
+                                    <td><a href="{{route('nhanvien',$nv->manhanvien)}}">Xóa</a></td>
                                 </tr>
                                 @endforeach
                             </tbody>

@@ -58,7 +58,7 @@
                         @foreach($allphong as $allphongs)
                         {{-- {{ dd($allphong) }} --}}
                         <div class="col-md-3 col-sm-3">
-                            <div class="block">
+                            <div class="block-phong">
                                 <div class="block-wrapper">
                                     <div class="front-side thumbnail">
                                         <img src="img/{{ $allphongs->urlPhong }}">

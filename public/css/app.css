@@ -236,7 +236,7 @@
   margin-bottom: 20px;
 }
 
-.index .block {
+.index .block-phong {
   width: 270px;
   height: 210px;
   position: relative;
@@ -245,7 +245,7 @@
   /*Mặt sau chứa tiêu đề và mô tả*/
 }
 
-.index .block .block-wrapper {
+.index .block-phong .block-wrapper {
   width: 270px;
   height: 210px;
   position: absolute;
@@ -254,7 +254,7 @@
   overflow: hidden;
 }
 
-.index .block .front-side {
+.index .block-phong .front-side {
   background: none;
   position: absolute;
   width: 270px;
@@ -277,12 +277,12 @@
   z-index: 2;
 }
 
-.index .block .front-side img {
+.index .block-phong .front-side img {
   width: 100%;
   height: auto;
 }
 
-.index .block .back-side {
+.index .block-phong .back-side {
   background: none;
   color: #fff;
   position: absolute;
@@ -296,24 +296,24 @@
           box-sizing: border-box;
 }
 
-.index .block .back-side h1 {
+.index .block-phong .back-side h1 {
   font-size: 18px;
   margin: 0;
   color: #F5D940;
   text-align: center;
 }
 
-.index .block p {
+.index .block-phong p {
   margin: 0;
   color: #282222;
 }
 
-.index .block:hover .front-side {
+.index .block-phong:hover .front-side {
   top: 100px;
   left: 0px;
 }
 
-.index .block .reverse .back-side {
+.index .block-phong .reverse .back-side {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -323,7 +323,7 @@
           flex-direction: column-reverse;
 }
 
-.index .block .reverse:hover .front-side {
+.index .block-phong .reverse:hover .front-side {
   top: -80px;
   left: 0px;
 }
@@ -1566,18 +1566,18 @@ mark,
   text-transform: uppercase;
 }
 
-.blockquote {
+.block-phongquote {
   margin-bottom: 1rem;
   font-size: 1.125rem;
 }
 
-.blockquote-footer {
+.block-phongquote-footer {
   display: block;
   font-size: 80%;
   color: #6c757d;
 }
 
-.blockquote-footer::before {
+.block-phongquote-footer::before {
   content: "\2014\A0";
 }
 

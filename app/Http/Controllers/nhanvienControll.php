@@ -16,7 +16,6 @@ class nhanvienControll extends Controller
     public function suanhanvien(Request $req, $id){
 		$req->session()->flash('status', 'Sửa nhân viên thành công!');
 		$nhvien                = nhanvien::find($id);
-		dd($nhvien);
 		$nhvien->tennhanvien   = $req->txttennhanvien;
 		$nhvien->luongnhanvien = $req->txtluongnhanvien;
 		$nhvien->ngaysinh      = $req->txtngaysinh;

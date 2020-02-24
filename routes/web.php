@@ -23,7 +23,6 @@ Route::get('dangnhap', 'LoginController@dangnhap');
 Route::post('login','LoginController@login')->name('login');
 Route::get('database','LoginController@database')->name('database');
 Route::get('dataphong','LoginController@dataphong')->name('dataphong');
-Route::get('datanhanvien','LoginController@datanhanvien')->name('datanhanvien');
 Route::get('form', 'LoginController@form')->name('form');
 
 //them phong
@@ -32,6 +31,7 @@ Route::post('themphong', 'LoginController@themphong')->name('themphong');
 //khach hang dang ki
 Route::post('themkhachhang', 'khachhangControll@khachhangdk')->name('themkhachhang');
 // nhan vien
+Route::get('datanhanvien','LoginController@datanhanvien')->name('datanhanvien');
 Route::get('nhanvien/{id}', 'nhanvienControll@getnhanvien')->name('nhanvien');
 Route::post('suanhanvien/{id}', 'nhanvienControll@suanhanvien')->name('suanhanvien');
 // rooms
