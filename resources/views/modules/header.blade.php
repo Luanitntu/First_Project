@@ -6,7 +6,7 @@
                     <div class="fixmenu">
                         <ul style="margin-top: -130px">
                             <div><img src="{{asset('img/logo.png')}}" width="150px" height="150px"></div>
-                            <li class="active"><a href="{{asset('home')}}">Trang Chủ</a></li>
+                            <li class="active"><a href="{{route('trangchu')}}">Trang Chủ</a></li>
                             <li><a href="{{asset('about')}}">Giới thiệu</a></li>
                             <li><a href="{{asset('rooms')}}">Phòng</a>
                                 <ul class="dropmenu">

@@ -13,7 +13,7 @@
 
 
 //----------------PAGES--------------------
-Route::get('/','pagesControll@index');
+Route::get('/','pagesControll@index')->name('trangchu');
 Route::get('room','pagesControll@room');
 Route::get('about', 'pagesControll@abouts');
 Route::get('gallery','pagesControll@gallery');
