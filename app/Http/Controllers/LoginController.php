@@ -29,7 +29,7 @@ class LoginController extends Controller
     }
     public function database(){
         $ttkh = khachhang::all();
-        return view('admin..khachhang.datakhachhang', compact('ttkh'));
+        return view('admin.khachhang.datakhachhang', compact('ttkh'));
     }
     public function dataphong(){
         $ttphong = phong::all();
