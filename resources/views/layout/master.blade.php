@@ -35,6 +35,11 @@
 <script src="{{asset('js/wow.min.js')}}"></script>
 <!-------------------------------------------->
 <script src="{{asset('js/app.js')}}"></script>
+
+@if(config('app.env') == 'local')
+    <script src="http://localhost:35729/livereload.js"></script>
+@endif
+
 <script>
 new WOW().init();
 </script>
